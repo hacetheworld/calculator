@@ -103,9 +103,7 @@ class Calculator {
 const displayElement = document.getElementById('display');
 let expression = '';
 
-document.querySelectorAll('.btn').forEach(button => {
-    console.log("dfg");
-    
+document.querySelectorAll('.btn').forEach(button => {    
     button.addEventListener('click', () => {
         const value = button.textContent;
 
